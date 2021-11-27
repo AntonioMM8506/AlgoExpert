@@ -22,5 +22,6 @@ function twoNumberSum(array, targetSum) {
     return res;
 }//End of twoNumberSum
 
-  // Do not edit the line below.
-exports.twoNumberSum = twoNumberSum;
+twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10); // [11, -1]
+twoNumberSum([-7, -5, -3, -1, 0, 1, 3, 5, 7], -5); //[-5, 0]
+twoNumberSum([15], 15); //[]
