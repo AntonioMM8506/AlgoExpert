@@ -2,11 +2,9 @@ function isValidSubsequence(array, sequence) {
     //sequence = [...new Set(sequence)];
     //console.log(sequence);
     let res = false;
-    let arr = 0;
     let seq = 0;
-    let i;
 
-    for(i=0; i<array.length; i++){
+    for(let i=0; i<array.length; i++){
         if(sequence[seq] == array[i]) seq++;
     }
 
