@@ -1,7 +1,8 @@
 function sortedSquaredArray(array) {
-    // Write your code here.
     let res = [];
 
+    //for each element in the array, it will stores its corresponding powered number in a new array
+    //then this new array will be sorted in ascending order.
     array.forEach(element => res.push(element**2));
     res.sort((a,b) => a-b);
     
