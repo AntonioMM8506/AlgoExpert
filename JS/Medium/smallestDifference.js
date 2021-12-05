@@ -3,7 +3,7 @@ function smallestDifference(arrayOne, arrayTwo) {
     arrayTwo.sort((a,b) => a-b);
     let res = [];
     let sum = 0;
-    let current = Infinity;
+    let current = Infinity;//simulate the nuber infinity as the highest computational possible number
     
     //compares the absolute difference between the two numbers, if the difference is lower than the current
     //value, then the current value now will be equals to the actual difference. 
@@ -17,7 +17,7 @@ function smallestDifference(arrayOne, arrayTwo) {
         }
     }
 
-    console.log(res);
+    //console.log(res);
     return res;
 
 }//End of smallestDifference
