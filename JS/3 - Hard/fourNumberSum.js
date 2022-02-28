@@ -3,6 +3,8 @@ function fourNumberSum(array, targetSum) {
     let res = [];
     let sum = 0;
     
+    //Brute force approach, try all the possible sums with the four possible numbers, without repeating
+    //and if there is a coincidence, it will push it into res array.
     for(i=0; i<array.length; i++){
         for(j=i+1; j<array.length; j++){
             for(k=j+1; k<array.length; k++){

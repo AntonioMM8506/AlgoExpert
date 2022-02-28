@@ -5,7 +5,7 @@
 
 Used languages: 
 
-- JaavaScript
+- JavaScript
 - Python 
 - Java
 

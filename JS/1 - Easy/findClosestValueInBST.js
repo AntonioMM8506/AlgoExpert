@@ -1,8 +1,12 @@
 function findClosestValueInBst(tree, target) {
-    let currentNode = tree;
+    //the first value is the base node of the tree
+	let currentNode = tree;
 	let closestVal = tree.value;
 	
 	while(currentNode != null){
+		//If the difference between the target value and the closestValue is greater than the
+		//difference between the target value and the current node value. Then the closest value
+		//changes its current value for the current node value
 		if(Math.abs(target-closestVal) > Math.abs(target-currentNode.value)){
 			closestVal = currentNode.value;
 		}
