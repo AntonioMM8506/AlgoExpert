@@ -17,7 +17,7 @@ function smallestDifference(arrayOne, arrayTwo) {
         }
     }
 
-    //console.log(res);
+    console.log(res);
     return res;
 
 }//End of smallestDifference
